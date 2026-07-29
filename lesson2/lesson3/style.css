@@ -1,0 +1,277 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    background-color: #e9ecef;
+    font-family: Arial, sans-serif;
+    padding: 30px 20px;
+    min-height: 100vh;
+}
+
+/* Container chính */
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Tiêu đề trang */
+.page-title {
+    text-align: center;
+    color: #0a2f5e;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* Wrapper chứa các card */
+.cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Card */
+.card {
+    width: 320px;
+    background-color: #ffffff;
+    border: 1px solid #b0b0b0;
+    border-radius: 28px;
+    padding: 25px 18px 22px;
+    margin: 0 auto;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex: 0 0 auto;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 35px rgba(0,0,0,0.15);
+}
+
+/* Ảnh đại diện */
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #2a7de1;
+    display: block;
+    margin: 0 auto 15px auto;
+    object-fit: cover;
+}
+
+/* Họ và tên */
+.fullname {
+    color: #0a2f5e;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 3px;
+    letter-spacing: 0.5px;
+}
+
+/* Nghề nghiệp */
+.job {
+    color: #6c757d;
+    font-style: italic;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Thông tin cá nhân */
+.info {
+    margin-bottom: 18px;
+}
+
+.info-item {
+    padding: 6px 0;
+    border-bottom: 1px solid #d0d7dd;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #1e2b37;
+}
+
+.info-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+/* Kỹ năng (tags) */
+.skills {
+    margin-bottom: 22px;
+    text-align: center;
+}
+
+.tag {
+    display: inline-block;
+    border: 1.5px solid #2a7de1;
+    color: #2a7de1;
+    border-radius: 30px;
+    padding: 4px 16px;
+    margin: 3px 4px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    background-color: transparent;
+    letter-spacing: 0.3px;
+    transition: all 0.3s ease;
+}
+
+.tag:hover {
+    background-color: #2a7de1;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* Nút chức năng */
+.actions {
+    text-align: center;
+    margin-top: 4px;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 40px;
+    font-size: 0.9rem;
+    min-width: 100px;
+    text-align: center;
+    margin: 0 4px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Nút Follow */
+.btn-follow {
+    background-color: #2a7de1;
+    color: #ffffff;
+    border-color: #2a7de1;
+}
+
+.btn-follow:hover {
+    background-color: #1b5fb0;
+    border-color: #1b5fb0;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(42, 125, 225, 0.3);
+}
+
+/* Nút Message */
+.btn-message {
+    background-color: #ffffff;
+    color: #2a7de1;
+    border: 2px solid #2a7de1;
+}
+
+.btn-message:hover {
+    background-color: #f0f6ff;
+    transform: translateY(-2px);
+}
+
+/* Nút Connect */
+.btn-connect {
+    background-color: #e84393;
+    color: #ffffff;
+    border-color: #e84393;
+}
+
+.btn-connect:hover {
+    background-color: #c2317a;
+    border-color: #c2317a;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(232, 67, 147, 0.3);
+}
+
+/* Nút Chat */
+.btn-chat {
+    background-color: #ffffff;
+    color: #e84393;
+    border: 2px solid #e84393;
+}
+
+.btn-chat:hover {
+    background-color: #fce4f0;
+    transform: translateY(-2px);
+}
+
+/* Nút Contact */
+.btn-contact {
+    background-color: #f39c12;
+    color: #ffffff;
+    border-color: #f39c12;
+}
+
+.btn-contact:hover {
+    background-color: #d68910;
+    border-color: #d68910;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(243, 156, 18, 0.3);
+}
+
+/* Nút Add Friend */
+.btn-addfriend {
+    background-color: #27ae60;
+    color: #ffffff;
+    border-color: #27ae60;
+}
+
+.btn-addfriend:hover {
+    background-color: #1e8449;
+    border-color: #1e8449;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(39, 174, 96, 0.3);
+}
+
+/* Nút Send Mail */
+.btn-mail {
+    background-color: #ffffff;
+    color: #27ae60;
+    border: 2px solid #27ae60;
+}
+
+.btn-mail:hover {
+    background-color: #eafaf1;
+    transform: translateY(-2px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+        max-width: 340px;
+    }
+    
+    .page-title {
+        font-size: 2rem;
+    }
+    
+    .cards-wrapper {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .btn {
+        min-width: 80px;
+        padding: 8px 14px;
+        font-size: 0.8rem;
+        margin: 0 3px;
+    }
+    
+    .fullname {
+        font-size: 1.2rem;
+    }
+    
+    .card {
+        padding: 18px 12px 18px;
+    }
+}
