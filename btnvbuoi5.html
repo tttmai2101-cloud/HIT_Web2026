@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">
+    <link rel="stylesheet" href="btvnbuoi5.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <i class="fa-solid fa-code"></i>
+            <span>MyWebsite</span>
+        </div>
+        <p>Website sử dụng HTML Semantic + CSS Grid</p>
+    </header>         
+        <nav class="navi">
+            <div class="container1">
+                <ul class="menu">
+                    <li><a href=""><i class="fa-solid fa-house"></i>Trang chủ</a> </li>
+                    <li class="menub2">
+                        <a href=""><i class="fa-solid fa-inbox"></i>sản phẩm <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="submenu">
+                            <li><a href="#"><i class="fa-solid fa-laptop"></i>Laptop</a></li>
+                            <li><a href="#"><i class="fa-solid fa-mobile"></i> Điện Thoại</a></li>
+                            <li><a href="#"><i class="fa-solid fa-headphones"></i> phụ kiện <i class="fa-solid fa-chevron-down"></i></a>
+                                <ul class="submenu phukien">
+                                    <li> <a href="#"><i class="fa-solid fa-headphones"></i> tai nghe</a></li>
+                                    <li> <a href="#"><i class="fa-solid fa-keyboard"></i> bàn phím</a></li>
+                                    <li> <a href="#"><i class="fa-solid fa-computer-mouse"></i> chuột</a></li>
+                                </ul>                         
+                            </li>
+                         </ul>  
+                    </li>            
+                     <li class="menub2">
+                        <a href=""><i class="fa-solid fa-list"></i> Danh mục <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="submenu">
+                            <li><a href=""><i class="fa-solid fa-code"></i>Lập Trình</a></li>
+                            <li><a href=""><i class="fa-solid fa-palette"></i> Thiết kế</a></li>                          
+                            <li><a href=""><i class="fa-solid fa-microchip"></i> Công nghệ</a></li>
+                       </ul>
+                    </li>
+                    <li><a href="# "><i class="fa-solid fa-newspaper"></i> tin tức</a></li>
+                    <li><a href="#"><i class="fa-solid fa-envelope"></i> liên hệ</a></li>
+               </ul>
+            </div>   
+         </nav>
+<div class="layout">
+        <aside class="sidebar">
+            <h2> <i class="fa-solid fa-bars"></i> Sidebar</h2>
+            <section class="sidebar-box">
+                <h3><i class="fa-solid fa-folder"></i>Danh mục</h3>
+                <ul>
+                     <li> <a href="#"><i class="fa-solid fa-laptop"></i> Laptop</a> </li>
+                    <li> <a href="#"><i class="fa-solid fa-mobile-screen-button"></i> Điện thoại</a></li>
+                    <li><a href="#"><i class="fa-solid fa-headphones"></i>Phụ kiện</a></li>
+                    <li><a href="#"><i class="fa-solid fa-code"></i> Phần mềm </a></li>
+                </ul>  
+            </section>
+            <section class="sidebar-box">
+                <h3> <i class="fa-solid fa-star"></i>Bài viết nổi bật</h3>
+                <ul>
+                    <li><a href="#">HLML Semantic là gì? </a></li>
+                    <li><a href="#">CSS Grid cơ bản</a></li>
+                    <li><a href="#">Flexbox vs Grid</a></li>
+                    <li><a href="#">Responsive Website</a></li>
+                </ul>
+            </section>
+            <section class="sidebar-box">
+                <h3><i class="fa-solid fa-link"></i>Liên kết</h3>
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i>Facebook</a> </li>
+                    <li><a href="#"><i class="fa-brands fa-github"></i>Github</a></li>
+                    <li> <a href="#"><i class="fa-brands fa-youtube"></i>Youtube</a></li>
+                </ul>
+            </section>
+        </aside>
+        <main class="main">
+            <section class="hero">
+                <div class="hero-content">
+                    <span class="hero-label"> FRONTEND DEVELOPMENT </span>
+                    <h1>
+                        HTML Semantic
+                        </br>
+                        & CSS Grid
+                    </h1>
+                    <p> Xây dựng website hiện đại bằng HTML Semantic, CSS Grid và Front Awesome.</p>
+                    <a href="#" class="hero-button">
+                        Khám phá ngay
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </a>
+                </div>
+                <div class="hero-icon">
+                    <i class="fa-solid fa-laptop-code"></i>
+                </div>
+            </section>
+            <section class="content">
+                <div class="section-header">
+                    <div>
+                        <span class="section-label"> FEATURED</span>
+                        <h2> Sản phẩm nổi bật</h2>
+                    </div>
+                    <a href="#">
+                        Xem tất cả
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="product-grid">
+                 <article class="card">
+                    <div class="card-image">
+                        <i class="fa-solid fa-laptop"></i>
+                        <span class="badge">HOT</span>
+                    </div>
+                    <div class="card-content">
+                        <span class="category">LAPTOP</span>
+                        <h3>Laptop Developer</h3>
+                        <p>Laptop mạnh mẽ dành cho lập trình và phát tiển phần mềm</p>
+                        <div class="card-footer">
+                            <strong>25.000.000đ</strong>
+                            <button>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+                 </article>   
+                 <article class="card">
+                    <div class="card-image">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                    </div>
+                    <div class="card-content">
+                        <span class="category">SMARTPHONE</span>
+                        <h3>Smartphone Pro</h3>
+                        <p>Điện thoại thông minh với thiết kế hiện đại và hiệu năng cao.</p>
+                        <div class="card-footer">
+                            <strong>18.000.000đ</strong>
+                            <button>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+                 </article>
+                 <article class="card">
+                    <div class="card-image">
+                        <i class="fa-solid fa-keyboard"></i>
+                    </div>
+                    <div class="card-content">
+                        <span class="category">ACCESSORY</span>
+                        <h3>Mechanical Keyboard</h3>
+                        <p>Bàn phím cơ chuyên dụng cho lập trình viên</p>
+                        <div class="card-footer">
+                            <strong>2.500.000đ</strong>
+                            <button>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+                 </article>
+                 <article class="card">
+                    <div class="card-image">
+                        <i class="fa-solid fa-headphones"></i>
+                    </div>
+                    <div class="card-content">
+                        <span class="category">ACCESSORY</span>
+                        <h3>Wireless Headphone</h3>
+                        <p>Tai nghe không dây với chất lượng âm thanh cao cấp</p>
+                        <div class="card-footer">
+                            <strong>1.800.000đ</strong>
+                            <button>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+                 </article>
+                </div>
+            </section>
+            <section class="content">
+                <div class="section-header">
+                    <div>
+                        <span class="section-label">ABOUT</span>
+                        <h2>HTML Semantic</h2>
+                    </div>
+                </div>
+                <div class="info-grid">
+                    <article class="info-item">
+                        <div class="info-icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <div>
+                            <h3>Semantic HTML</h3>
+                            <p> Sử dụng các thẻ HTML có ý nghĩa như header, nav, main, aside, section, article và footer.</p>
+                        </div>
+                    </article>
+                    <article class="info-item">
+                        <div class="info-icon">
+                            <i class="fa-solid fa-table-cells-large"></i>
+                        </div>
+                        <div>
+                            <h3>CSS Grid</h3>
+                            <p>Sử dụng CSS Grid để xây dựng layout hai cột gồm Sidebar và Main </p>
+                        </div>
+                    </article>
+                    <article class="info-item">
+                        <div class="info-icon">
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                        </div>
+                        <div>
+                            <h3>Responsive</h3>
+                            <p> Layout tự động thay đổi trên màn hình tablet và mobile.</p>
+                        </div>
+                    </article>
+                    <article class="info-item">
+                        <div class="info-icon">
+                            <i class="fa-regular fa-font-awesome"></i>
+                        </div>
+                        <div>
+                            <h3>Font Awesome</h3>
+                            <p> Sử dụng Font Awesome để tạo hệ thống icon đồng nhất.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer-container">
+                <section class="footer-column">
+                    <div class="footer-logo">
+                        <i class="fa-solid fa-code"></i>MyWebsite
+                    </div>
+                    <p>Website học HTML, CSS và Frontend dành cho người mới bắt đầu.</p>
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </section>
+                <section class="footer-column">
+                    <h3>Liên kết</h3>
+                    <ul>
+                        <li><a href=#>Trang chủ</a></li>
+                        <li><a href=#>Sản phẩm</a></li>
+                        <li><a href=#>Danh mục</a></li>
+                        <li><a href=#>Tin tức</a></li>
+                    </ul>
+                </section>
+                <section class="footer-column">
+                    <h3>Sản phẩm</h3>
+                    <ul>
+                        <li><a href=#>Laptop</a></li>
+                        <li><a href=#>Điện thoại</a></li>
+                        <li><a href=#>Bàn phím</a></li>
+                        <li><a href=#>Tai nghe</a></li>
+                    </ul>
+                </section>
+                <section class="footer-column">
+                    <h3>Liên hệ</h3>
+                    <p>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Hà Nội, Việt Nam
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-phone-volume"></i>
+                        1234 567 898
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-envelope"></i>
+                        example@gmail.com
+                    </p>
+                </section>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
